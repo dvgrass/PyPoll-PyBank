@@ -5,7 +5,7 @@ import csv
 
 # Join for files to load/export
 
-bank_csv = os.path.join("Resources", "budget.csv")
+bank_csv = os.path.join("Resources", "budget_data.csv")
 bank_txt = os.path.join("analysis", "budget_analysis.txt")
 
 # Establish Parameters
@@ -62,5 +62,5 @@ output = (
 print(output)
 
 # Export the results to text file
-with open(file_to_output, "w") as txt_file:
+with open(bank_txt, "w") as txt_file:
     txt_file.write(output)
