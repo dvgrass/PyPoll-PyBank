@@ -1,3 +1,3 @@
 # PyPoll-PyBank
 
-Use simple loops to create analysis for financial statements and polls. 
+Import CSV and generate financial analysis summary exported as .txt file.
